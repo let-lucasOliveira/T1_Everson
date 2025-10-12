@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PASSAGEM VIRTUAL"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:id="@+id/imgQrCode"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/ic_launcher"
+            android:contentDescription="QR Code da Passagem"
+            android:background="#E0E0E0"
+            android:padding="15dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DETALHES DA RESERVA:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtDetalhesViagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="[Rota, Data, Horário]"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/txtPassageirosResumo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="[Resumo dos Passageiros e Poltronas]"
+            android:textSize="16sp"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/btnSalvarPdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SALVAR PDF"
+            android:padding="15dp"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+</ScrollView>

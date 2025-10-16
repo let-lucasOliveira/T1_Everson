@@ -33,6 +33,7 @@ android {
 
 dependencies {
 
+    implementation(libs.zxing.android.embedded)
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)

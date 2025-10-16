@@ -53,6 +53,16 @@
             android:textSize="16sp"
             android:layout_marginBottom="30dp"/>
 
+        <TextView    android:id="@+id/txtNumeroPassagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nº da Passagem: ..."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"/>
+
+
         <Button
             android:id="@+id/btnSalvarPdf"
             android:layout_width="match_parent"
